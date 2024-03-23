@@ -1,6 +1,6 @@
 # object_oriented_programming_class_project
 This is a text adventure game using classes and subclasses.
-Download the repository and open "game.py" in Python Shell and run it (F5).
+Download the repository and open "game.py" in Python Shell and run it.
 This game plays out in the Python Shell and was made using Python 3. 
 
 The goal of this little text adventure game was to learn how OOP works and the basics of classes and inheritance. 
