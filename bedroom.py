@@ -9,7 +9,6 @@ class Barracks(Room):
 		self.description = """\nYou've entered the barracks. There is large pool of blood by one of the bunks.\nBloodied rags, sheets and other clothing lay on and around the bed.\nA reminder of a failure.\n 
 		You can head west to the reactor, east to the kitchen and south to the dining area.\n"""
 		self.contents = ["Safety Gear"]
-		self.doors = {"w": "reactor", "e": "kitchen", "s":"dining"}
 		self.special = []
 
 	def get_random_enemy(self):
