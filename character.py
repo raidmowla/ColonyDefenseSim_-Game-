@@ -23,11 +23,5 @@ class Character:
 			print("\n{} suffered {} damage. {}'s health is now at {}\n".format(self.name, defense, self.name, self.health))
 		else:
 			print("No damage")
-		if self.health < 1:
-			dead = self.name
-		elif defender.health < 1:
-			dead = defender.name
-		if dead:
-			print("\n{} has been killed!\n".format(dead))
-			return dead
+		
 
